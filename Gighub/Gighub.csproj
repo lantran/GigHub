@@ -226,6 +226,10 @@
     <Compile Include="Migrations\201608062003424_AddNameToApplicationUser.Designer.cs">
       <DependentUpon>201608062003424_AddNameToApplicationUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201608062302060_ChangeGenreTypeToByte.cs" />
+    <Compile Include="Migrations\201608062302060_ChangeGenreTypeToByte.Designer.cs">
+      <DependentUpon>201608062302060_ChangeGenreTypeToByte.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\Genre.cs" />
@@ -338,6 +342,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201608062003424_AddNameToApplicationUser.resx">
       <DependentUpon>201608062003424_AddNameToApplicationUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608062302060_ChangeGenreTypeToByte.resx">
+      <DependentUpon>201608062302060_ChangeGenreTypeToByte.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
